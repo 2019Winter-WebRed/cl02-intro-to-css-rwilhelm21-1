@@ -1,0 +1,36 @@
+/*
+* Ruth Wilhelm
+* 3/6/19
+* Prom Dress 2
+*/ 
+
+/* The universial selector */
+
+* { 
+} 
+
+/* Body attributes here */
+
+body { 
+    width: 90%; 
+    margin: auto;
+    background-color: #E16E79; 
+    font-family: Times New Roman, Helvetica, Impact; 
+} 
+
+h1 {
+    background-color: lightpink; /* color for background */
+    color: darkred; /* color of text */
+}
+
+p { /* type selector for ALL paaragraphs */  
+    color: purple;
+}
+
+#redText { /* use an id to change text to red */
+    color: darkred;
+}
+
+.greenText { /* use a class to change text to green in different kinds of elements */ 
+    color: darkgreen; 
+}
